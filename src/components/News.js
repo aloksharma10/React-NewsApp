@@ -68,7 +68,7 @@ export class News extends Component {
     render() {
         return (
             <div className='container my-3'>
-                <h2 className='text-center'>Breaking News with Chai wala</h2>
+                <h2 className='text-center'>Breaking News</h2>
                 {this.state.loading && <Loading />}
                 <div className="row text-center">
                     {this.state.artcles.map((elem) => {
